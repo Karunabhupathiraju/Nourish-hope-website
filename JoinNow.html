@@ -1,0 +1,85 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Noursish A Life</title>
+        <link rel="stylesheet" href="styleDonate.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="fullContainer banner" style="background-image: url('volunteer.jpg');">
+
+        
+        
+            <header >
+                <div class="container">
+                    <h3 class="website-name">NourishHope</h3>
+                    
+                <div class="logo">
+                    <img src="love.png" />
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="sponsor.html">Sponsor A child</a>
+                           
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="DonateNow.html">Donate</a>
+                          
+                        </li>
+                        
+                        
+                        <li>
+                            <a href="JoinNow.html">Join Us</a>
+                        </li>
+                        <li>
+                            <a href="AdminLogin.html">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            </header>
+          
+            <div class="container">
+                <h1 style="color:black; font-weight: 400;">Join Us</h1>
+                
+            </div>
+            <main>
+                <form action="JoinNowInsert.php" method="post" enctype="multipart/form-data">
+                    <h2>Become a Volunteer</h2>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+                    <label for="PhoneNumber">Phone Number:</label>
+                    <input type="number" id="PhoneNumber" name="PhoneNumber" placeholder="Enter the Phone Number " required>
+        
+                    <label for="Type">Type of Work:</label>
+                    <select id="Type" name="Type">
+                        <option value="OfficeWork">Office Work</option>
+                        <option value="FieldWork">Field Work</option>
+                       
+                    </select>
+                    <label for="why">Why Do You Want to Become a Volunteer:</label>
+                   <textarea rows="4" cols="3" name="why">
+                    </textarea>
+        
+        
+                    <input type="submit" value="Volunteer" name="Volunteer">
+                </form>
+            </main>
+        </div>
+            
+           
+            </body>
+            </html>

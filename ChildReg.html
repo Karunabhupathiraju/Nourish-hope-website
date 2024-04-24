@@ -1,0 +1,106 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Noursish A Life</title>
+        <link rel="stylesheet" href="styleDonate.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="fullContainer banner" style="background-image: url('ChildReg.jpg'); background-attachment: fixed;background-size: cover;">
+
+        
+        
+            <header >
+                <div class="container">
+                    <h3 class="website-name">NourishHope</h3>
+                    
+                <div class="logo">
+                    <img src="love.png" />
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#gallerySection">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#aboutSection">About Us</a>
+                        </li>
+                       
+                        
+                
+                        
+                        
+                        <li>
+                            <a href="Users.php">Users</a>
+                        </li>
+                        <li>
+                            <a href="index.html">Logout</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            </header>
+          
+            <div class="container">
+                <h1 style="color:#fff; font-weight: 400;">Child Registration Here</h1>
+                
+            </div>
+            <main>
+                <form action="insertChild.php" method="post" enctype="multipart/form-data">
+                    <h2 style="margin-left: auto; margin-right: auto;">Register Here</h2>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+                    <label for="DOB">DOB:</label>
+                    <input type="date" id="DOB" name="DOB" placeholder="Enter your DOB" required>
+                    <label for="Gender">Gender</label>
+                    <div class="gender-options">
+                        <label>
+                          <input type="radio" name="gender" value="male">
+                          Male
+                        </label>
+                        <label>
+                          <input type="radio" name="gender" value="female">
+                          Female
+                        </label>
+                      
+                      </div>
+        
+                    
+                  
+                       
+                
+                      <label for="Address">Address:</label>
+                      <textarea rows="3" cols="2" name="Address" required></textarea>
+                   
+                    <label for="Country">Country:</label>
+                    <select id="Country" name="Country">
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="Bangladesh">Bangladesh</option> 
+                        <option value="Cambodia">Cambodia</option>
+                        <option value="India">India</option>  
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Myanmar">Myanmar</option> 
+                        <option value="Nepal">Nepal</option>
+                        <option value="Pakistan">Pakistan</option> </select>
+                        
+                   <label for="Problems">Problems:</label>
+                   <textarea rows="3" cols="2" name="Problems" required></textarea>
+                   <label for="Image">Image:</label>
+                    <input type="file" id="userImage" name="userImage"  accept="image/*" required>
+        
+                    <input type="submit" value="Register" name="Register">
+                </form>
+            </main>
+        </div>
+            
+           
+            </body>
+            </html>

@@ -1,0 +1,93 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Noursish A Life</title>
+        <link rel="stylesheet" href="styleDonate.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="fullContainer banner" style="background-image: url('donate.jpg'); background-attachment: fixed;background-size: cover;">
+
+        
+        
+            <header >
+                <div class="container">
+                    <h3 class="website-name">NourishHope</h3>
+                    
+                <div class="logo">
+                    <img src="love.png" />
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="sponsor.html">Sponsor A Child</a>
+                            
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="DonateNow.html">Donate</a>
+                          
+                        </li>
+                        <li>
+                            <a href="#gallerySection">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#aboutSection">About Us</a>
+                        </li>
+                        
+                        <li>
+                            <a href="JoinNow.html">Join Us</a>
+                        </li>
+                        <li>
+                            <a href="AdminLogin.html">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            </header>
+          
+            <div class="container">
+                <h1 style="color:black; font-weight: 400;">Donate Now</h1>
+                
+            </div>
+            <main>
+                <form action="insertDonate.php" method="post" enctype="multipart/form-data">
+                    <h2>Make a Donation</h2>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+                    <label for="amount">Amount:</label>
+                    <input type="number" id="amount" name="amount" placeholder="Enter donation amount" required>
+        
+                    <label for="payment">Payment Method:</label>
+                    <select id="payment" name="payment">
+                        <option value="credit_card">Credit Card</option>
+                        <option value="Debit_card">Debit Card</option>
+                       
+                    </select>
+                    <label for="CardNumber">CardNumber:</label>
+                    <input type="number" id="CardNumber" name="CardNumber" placeholder="Enter Card Number" required>
+        
+                    <label for="CVV">CVV:</label>
+                    <input type="number" id="CVV" name="CVV" placeholder="Enter CVV" required>
+                    <label for="Year">Year:</label>
+                    <input type="number" id="Year" name="Year" placeholder="Enter the Year" required>
+        
+                    <input type="submit" value="Donate" name="Donate">
+                </form>
+            </main>
+        </div>
+            
+           
+            </body>
+            </html>

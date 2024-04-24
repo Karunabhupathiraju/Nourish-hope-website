@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --themeRed: #e43a47;
+    --gray:#efefef;
+}
+button,body
+{
+    font-family: 'Poppins', sans-serif;
+
+}
+.website-name {
+    font-size: 35px;
+   color: #e43a47;
+    padding-left: 35px;
+    font-family:Brush Script MT, cursive;
+    letter-spacing: 2px;
+   
+  }
+  *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.fullContainer 
+{
+    width: 100%;
+    
+    
+
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+header
+{
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    z-index: 2;
+}
+html{
+    scroll-behavior: smooth;
+}
+header .container
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+header .container .logo
+{
+    padding: 15px 0;
+    height: 75px;
+
+}
+header .container .logo img{
+    height: 100px;
+
+}
+header nav ul{
+    list-style: none;
+
+}
+header nav ul li{
+    display: inline-block;
+}
+
+  
+header,nav,li,ul,a{
+    display: block;
+    height: 75px;
+    line-height: 75px;
+    padding:  0 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.9s;
+    
+
+}
+header nav ul li a:hover
+{
+    background-color:var(--themeRed);
+}
+.banner
+{
+    min-height: 100vh;
+    width: 100%;
+   
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.banner button{
+    background-color: var(--themeRed);
+    border: 0;
+    outline: none;
+    color:#fff;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    color: black;
+    width: 250px;
+    
+    background-color: #555;
+  }
+  nav ul ul li {
+      width: 200px;
+      display: block;
+      color: black;
+      position: relative;
+    }
+    
+    nav ul ul li a {
+      padding: 10px;
+      color: black;
+      text-decoration: none;
+    }
+    
+    nav ul ul li a:hover {
+      background-color: var(--themeRed);
+    }
+  
+  
+  nav ul li:hover > ul {
+    display: inherit;
+    width: 290px;
+  }
+  
+  nav ul ul li {
+    width: 290px;
+    display: block;
+    position: relative;
+  }
+  main {
+	max-width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+	background: transparent;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	border-radius: 10px;
+    backdrop-filter: blur(20px);
+
+    
+    
+}
+.banner h1{
+    margin-top: 650px;
+    display: inline-block;
+    font-size: 3.5rem;
+    color:#fff;
+    text-shadow: 0 0 2px #000;
+    width: 100%;
+    line-height: 4.2rem;
+    font-weight: 100;
+    text-align: center;
+  
+  
+
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+input, select,file {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+}
+textarea
+{
+    padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+}
+input[type="file"]
+{
+    padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+
+}
+
+input[type="submit"]:hover {
+	background-color: #555;
+}
+  
+
+  
+  

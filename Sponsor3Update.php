@@ -1,0 +1,75 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Noursish A Life</title>
+        <link rel="stylesheet" href="Logincss.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="fullContainer banner" style="background-image: url('login.jpg');">
+
+        
+        
+            <header >
+                <div class="container">
+                    <h3 class="website-name">NourishHope</h3>
+                    
+                <div class="logo">
+                    <img src="love.png" />
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="sponsor.html">Sponsor A Child</a>
+                            
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="DonateNow.html">Donate</a>
+                          
+                        </li>
+                        
+                        
+                        <li>
+                            <a href="JoinNow.html">Join Us</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+            </header>
+          
+            <div class="container">
+                <h1 style="color:black; font-weight: 400;">Login Again to COnfirm </h1>
+                
+            </div>
+            <main>
+                <form action="Sponsor2Update.php?id=<?php echo $userId;?>" method="post" enctype="multipart/form-data">
+                    <h2 style="text-align: center;">Login</h2>
+                   
+                    <label for="userName">User Name:</label>
+                    <input type="text" id="userName" name="userName" placeholder="Enter the UserName" required>
+                    
+                    <label for="Password">Password:</label>
+                    <input type="Password" id="Password" name="Password" placeholder="Enter the Password" required>
+                    
+        
+                    
+        <div style="align-items: baseline ; padding: 20px; margin-left: auto; margin-right: auto;">
+            <input type="submit" value="SponsorLogin" name="SponsorLogin" style="width:100px;">
+            
+        </div>
+                       </form>
+            </main>
+        </div>
+            
+           
+            </body>
+            </html>
